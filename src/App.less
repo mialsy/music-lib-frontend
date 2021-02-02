@@ -1,3 +1,5 @@
+@import "~antd/dist/antd.less";
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#TopContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+#TopLogo {
+  width: 60%;
+  color: rgba(0, 0, 0, 0.85);
+  background-color: #ff85c0;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+#TopSearch {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+
+#TopMenu {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
